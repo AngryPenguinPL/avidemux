@@ -218,8 +218,8 @@ find build -name dirs.list |while read r; do
 done
 
 #files -f %{name}.lang -f build/avidemux_core/file.list,build/SETTINGS/file.list,build/COMMON/file.list
-%_datadir/icons/*.png
-%_datadir/icons/*/*
+#_datadir/icons/*.png
+#_datadir/icons/*/*
 
 %files qt -f build/avidemux/qt4/file.list,build/QT4/file.list
 %{_datadir}/applications/avidemux-qt.desktop
