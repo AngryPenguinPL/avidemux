@@ -222,6 +222,6 @@ done
 #_datadir/icons/*/*
 
 #files qt -f build/avidemux/qt4/file.list,build/QT4/file.list
-%{_datadir}/applications/avidemux-qt.desktop
+#{_datadir}/applications/avidemux-qt.desktop
 
 %files cli -f build/avidemux/cli/file.list,build/CLI/file.list
