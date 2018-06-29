@@ -224,4 +224,4 @@ done
 #files qt -f build/avidemux/qt4/file.list,build/QT4/file.list
 #{_datadir}/applications/avidemux-qt.desktop
 
-%files cli -f build/avidemux/cli/file.list,build/CLI/file.list
+#files cli -f build/avidemux/cli/file.list,build/CLI/file.list
